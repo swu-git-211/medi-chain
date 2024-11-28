@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/medi-chain/static/js/main.be776d1c.js",
+    "index.html": "/medi-chain/index.html",
+    "main.be776d1c.js.map": "/medi-chain/static/js/main.be776d1c.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.be776d1c.js"
+  ]
+}
