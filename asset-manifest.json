@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/medi-chain/static/js/main.8de41e1d.js",
+    "main.js": "/medi-chain/static/js/main.b2eed423.js",
     "index.html": "/medi-chain/index.html",
-    "main.8de41e1d.js.map": "/medi-chain/static/js/main.8de41e1d.js.map"
+    "main.b2eed423.js.map": "/medi-chain/static/js/main.b2eed423.js.map"
   },
   "entrypoints": [
-    "static/js/main.8de41e1d.js"
+    "static/js/main.b2eed423.js"
   ]
 }
