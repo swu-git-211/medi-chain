@@ -4,7 +4,7 @@ import Web3 from 'web3';
 const web3 = new Web3('http://localhost:7545');  // ให้แน่ใจว่า Ganache กำลังรันอยู่ที่ port นี้
 
 // Smart Contract Address และ ABI
-const contractAddress = '0xE90e4A8Dae4DC79cd65A44774C79BF50EB8Fed37';  // ระบุ Contract Address
+const contractAddress = '0xDaeAAd5eADb4d4B6DffA41e4ca03945627e3a047';  // ระบุ Contract Address
 const contractABI = [
 	{
 		"inputs": [
