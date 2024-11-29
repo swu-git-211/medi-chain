@@ -52,14 +52,14 @@ const Input = () => {
 
   return (
     <Container
-      maxWidth="lg"
+      maxWidth="lg"  // เพิ่มความกว้างของ Container
       sx={{
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
         minHeight: '100vh',
-        backgroundColor: '#E3F2FD', // พื้นหลังสีน้ำเงินอ่อน
+        backgroundColor: '#F6F5F2', // สีพื้นหลังของ Container
         padding: 3,
         borderRadius: 4,
         boxShadow: 3,
@@ -72,7 +72,6 @@ const Input = () => {
           fontWeight: 'bold',
           textAlign: 'center',
           marginBottom: 3,
-          color: '#0D47A1', // สีฟ้าเข้ม
         }}
       >
         เพิ่มข้อมูลยา
@@ -96,13 +95,13 @@ const Input = () => {
             multiline
             sx={{
               borderRadius: 2,
-              backgroundColor: '#E3F2FD', // พื้นหลังสีน้ำเงินอ่อน
+              backgroundColor: '#FFEFEF', // สีพื้นหลังของ TextField
               '& .MuiOutlinedInput-root': {
                 '& fieldset': {
-                  borderColor: '#64B5F6', // ขอบฟ้าสดใส
+                  borderColor: '#F0EBE3', // สีขอบของ TextField
                 },
                 '&:hover fieldset': {
-                  borderColor: '#42A5F5', // ขอบฟ้าเมื่อ hover
+                  borderColor: '#F0EBE3', // สีขอบเมื่อ hover
                 },
               },
             }}
@@ -118,13 +117,13 @@ const Input = () => {
             multiline
             sx={{
               borderRadius: 2,
-              backgroundColor: '#E3F2FD', // พื้นหลังสีน้ำเงินอ่อน
+              backgroundColor: '#FFEFEF',
               '& .MuiOutlinedInput-root': {
                 '& fieldset': {
-                  borderColor: '#64B5F6', // ขอบฟ้าสดใส
+                  borderColor: '#F0EBE3',
                 },
                 '&:hover fieldset': {
-                  borderColor: '#42A5F5', // ขอบฟ้าเมื่อ hover
+                  borderColor: '#F0EBE3',
                 },
               },
             }}
@@ -139,13 +138,13 @@ const Input = () => {
             margin="normal"
             sx={{
               borderRadius: 2,
-              backgroundColor: '#E3F2FD', // พื้นหลังสีน้ำเงินอ่อน
+              backgroundColor: '#FFEFEF',
               '& .MuiOutlinedInput-root': {
                 '& fieldset': {
-                  borderColor: '#64B5F6', // ขอบฟ้าสดใส
+                  borderColor: '#F0EBE3',
                 },
                 '&:hover fieldset': {
-                  borderColor: '#42A5F5', // ขอบฟ้าเมื่อ hover
+                  borderColor: '#F0EBE3',
                 },
               },
             }}
@@ -161,13 +160,13 @@ const Input = () => {
             multiline
             sx={{
               borderRadius: 2,
-              backgroundColor: '#E3F2FD', // พื้นหลังสีน้ำเงินอ่อน
+              backgroundColor: '#FFEFEF',
               '& .MuiOutlinedInput-root': {
                 '& fieldset': {
-                  borderColor: '#64B5F6', // ขอบฟ้าสดใส
+                  borderColor: '#F0EBE3',
                 },
                 '&:hover fieldset': {
-                  borderColor: '#42A5F5', // ขอบฟ้าเมื่อ hover
+                  borderColor: '#F0EBE3',
                 },
               },
             }}
@@ -183,13 +182,13 @@ const Input = () => {
             multiline
             sx={{
               borderRadius: 2,
-              backgroundColor: '#E3F2FD', // พื้นหลังสีน้ำเงินอ่อน
+              backgroundColor: '#FFEFEF',
               '& .MuiOutlinedInput-root': {
                 '& fieldset': {
-                  borderColor: '#64B5F6', // ขอบฟ้าสดใส
+                  borderColor: '#F0EBE3',
                 },
                 '&:hover fieldset': {
-                  borderColor: '#42A5F5', // ขอบฟ้าเมื่อ hover
+                  borderColor: '#F0EBE3',
                 },
               },
             }}
@@ -205,13 +204,13 @@ const Input = () => {
             multiline
             sx={{
               borderRadius: 2,
-              backgroundColor: '#E3F2FD', // พื้นหลังสีน้ำเงินอ่อน
+              backgroundColor: '#FFEFEF',
               '& .MuiOutlinedInput-root': {
                 '& fieldset': {
-                  borderColor: '#64B5F6', // ขอบฟ้าสดใส
+                  borderColor: '#F0EBE3',
                 },
                 '&:hover fieldset': {
-                  borderColor: '#42A5F5', // ขอบฟ้าเมื่อ hover
+                  borderColor: '#F0EBE3',
                 },
               },
             }}
@@ -227,13 +226,13 @@ const Input = () => {
             multiline
             sx={{
               borderRadius: 2,
-              backgroundColor: '#E3F2FD', // พื้นหลังสีน้ำเงินอ่อน
+              backgroundColor: '#FFEFEF',
               '& .MuiOutlinedInput-root': {
                 '& fieldset': {
-                  borderColor: '#64B5F6', // ขอบฟ้าสดใส
+                  borderColor: '#F0EBE3',
                 },
                 '&:hover fieldset': {
-                  borderColor: '#42A5F5', // ขอบฟ้าเมื่อ hover
+                  borderColor: '#F0EBE3',
                 },
               },
             }}
@@ -249,13 +248,13 @@ const Input = () => {
             multiline
             sx={{
               borderRadius: 2,
-              backgroundColor: '#E3F2FD', // พื้นหลังสีน้ำเงินอ่อน
+              backgroundColor: '#FFEFEF',
               '& .MuiOutlinedInput-root': {
                 '& fieldset': {
-                  borderColor: '#64B5F6', // ขอบฟ้าสดใส
+                  borderColor: '#F0EBE3',
                 },
                 '&:hover fieldset': {
-                  borderColor: '#42A5F5', // ขอบฟ้าเมื่อ hover
+                  borderColor: '#F0EBE3',
                 },
               },
             }}
@@ -271,13 +270,13 @@ const Input = () => {
             multiline
             sx={{
               borderRadius: 2,
-              backgroundColor: '#E3F2FD', // พื้นหลังสีน้ำเงินอ่อน
+              backgroundColor: '#FFEFEF',
               '& .MuiOutlinedInput-root': {
                 '& fieldset': {
-                  borderColor: '#64B5F6', // ขอบฟ้าสดใส
+                  borderColor: '#F0EBE3',
                 },
                 '&:hover fieldset': {
-                  borderColor: '#42A5F5', // ขอบฟ้าเมื่อ hover
+                  borderColor: '#F0EBE3',
                 },
               },
             }}
@@ -293,10 +292,9 @@ const Input = () => {
             marginTop: 3,
             padding: '10px',
             borderRadius: 4,
-            backgroundColor: '#1E88E5', // สีฟ้าหลัก
-            color: '#FFFFFF', // สีตัวอักษร
+            backgroundColor: '#F3D0D7', // ปรับสีปุ่ม
             '&:hover': {
-              backgroundColor: '#1565C0', // สีฟ้าเข้มเมื่อ hover
+              backgroundColor: '#F0EBE3', // สีเมื่อ hover
             },
           }}
         >
@@ -312,10 +310,9 @@ const Input = () => {
             marginTop: 2,
             padding: '10px',
             borderRadius: 4,
-            borderColor: '#1E88E5',
-            color: '#1E88E5', // สีของขอบปุ่ม
+            borderColor: '#F0EBE3', // สีของขอบปุ่ม
             '&:hover': {
-              backgroundColor: '#E3F2FD', // สีเมื่อ hover
+              backgroundColor: '#FFEFEF', // สีเมื่อ hover
             },
           }}
           onClick={() => navigate('/')} // นำทางกลับไปหน้า Home

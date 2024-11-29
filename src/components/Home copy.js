@@ -3,7 +3,7 @@ import { Button, TextField, Container, Typography, Box } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
-  const [name, setName] = useState('');
+  const [name, setName] = useState('');  // ใช้ชื่อยาแทน id
   const navigate = useNavigate();
 
   const handleChange = (e) => {
@@ -13,27 +13,27 @@ const Home = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (name) {
-      navigate(`/${name}`);
+      navigate(`/${name}`); // นำทางไปหน้า MedicineList โดยใช้ชื่อยา
     }
   };
 
   return (
     <Container
-      maxWidth="false"
+      maxWidth="false" // ทำให้ container กว้างเต็มจอ
       style={{
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
         minHeight: '100vh',
-        padding: 0,
-        margin: 0,
+        padding: 0, // ลบ padding ของ container
+        margin: 0,  // ลบ margin ของ container
       }}
     >
       <Box
         component="div"
         style={{
-          backgroundColor: '#1976D2', // สีพื้นหลังของ Box (สีน้ำเงิน)
+          backgroundColor: '#9B7EBD', // สีพื้นหลังของ Box
           padding: '30px',
           borderRadius: '12px',
           boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
@@ -42,7 +42,7 @@ const Home = () => {
           maxWidth: '700px',
         }}
       >
-        <Typography variant="h4" gutterBottom style={{ fontWeight: 'bold', color: '#FFFFFF' }}>
+        <Typography variant="h4" gutterBottom style={{ fontWeight: 'bold', color: '#333' }}>
           ใส่ชื่อยาที่ต้องการค้นหา
         </Typography>
 
@@ -55,7 +55,7 @@ const Home = () => {
             onChange={handleChange}
             margin="normal"
             style={{
-              backgroundColor: '#E3F2FD', // สีพื้นหลังของ TextField (สีฟ้าอ่อน)
+              backgroundColor: '#EEEEEE', // สีพื้นหลังของ TextField
               borderRadius: '8px',
             }}
           />
@@ -65,7 +65,7 @@ const Home = () => {
             fullWidth
             style={{
               marginTop: '15px',
-              backgroundColor: '#42A5F5', // สีของปุ่ม "ไปยังข้อมูลยา" (สีน้ำเงิน)
+              backgroundColor: '#D4BEE4', // สีของปุ่ม "ไปยังข้อมูลยา"
               color: 'white',
               borderRadius: '8px',
               padding: '12px',
@@ -83,7 +83,7 @@ const Home = () => {
           onClick={() => navigate('/input')}
           style={{
             marginTop: '20px',
-            backgroundColor: '#42A5F5', // สีของปุ่ม "เพิ่มข้อมูลยาใหม่" (สีน้ำเงินอ่อน)
+            backgroundColor: '#E4B1F0',
             color: 'white',
             borderRadius: '8px',
             padding: '12px',

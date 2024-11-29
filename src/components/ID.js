@@ -59,7 +59,9 @@ const MedicineList = () => {
 
   useEffect(() => {
     if (medicines.length > 0) {
-      searchMedicine(); // เรียกใช้งานฟังก์ชันการค้นหาเมื่อ name หรือ medicines เปลี่ยนแปลง
+      console.log("กำลังค้นหาข้อมูลสำหรับชื่อ:", name); // ตรวจสอบชื่อที่ใช้ค้นหา
+      console.log("รายการยาที่ใช้ในการค้นหา:", medicines); // ตรวจสอบรายการยา
+      searchMedicine(); // เรียกใช้งานฟังก์ชันการค้นหา
     }
     // eslint-disable-next-line
   }, [name, medicines]);
